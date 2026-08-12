@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
-import { ApiError, fetchLatestBacktest, fetchRecommendations } from './api';
+import { fetchLatestBacktest, fetchRecommendations } from './lib/data';
 import type { BacktestResponse, RecommendationsResponse } from './types';
 import { Header } from './components/Header';
 import { CountSelector } from './components/CountSelector';
@@ -31,7 +31,7 @@ export default function App() {
       const res = await fetchRecommendations(n);
       setData(res);
     } catch (e) {
-      setError(e instanceof ApiError ? e.message : '网络请求失败，请检查后端服务是否运行');
+      setError(e instanceof Error ? e.message : '数据加载失败，请重试');
     } finally {
       setLoading(false);
     }

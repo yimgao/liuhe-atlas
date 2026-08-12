@@ -2,12 +2,11 @@ import { render, screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { afterEach, describe, expect, it, vi } from 'vitest';
 import App from './App';
-import * as api from './api';
-import { ApiError } from './api';
+import * as data from './lib/data';
 import { makeBacktest, makeRecommendations } from './test/fixtures/mockData';
 
-vi.mock('./api', async (importOriginal) => {
-  const actual = await importOriginal<typeof import('./api')>();
+vi.mock('./lib/data', async (importOriginal) => {
+  const actual = await importOriginal<typeof import('./lib/data')>();
   return {
     ...actual,
     fetchRecommendations: vi.fn(),
@@ -15,8 +14,8 @@ vi.mock('./api', async (importOriginal) => {
   };
 });
 
-const mockedFetchRecommendations = vi.mocked(api.fetchRecommendations);
-const mockedFetchLatestBacktest = vi.mocked(api.fetchLatestBacktest);
+const mockedFetchRecommendations = vi.mocked(data.fetchRecommendations);
+const mockedFetchLatestBacktest = vi.mocked(data.fetchLatestBacktest);
 
 afterEach(() => {
   vi.restoreAllMocks();
@@ -44,7 +43,7 @@ describe('App', () => {
   });
 
   it('shows an error with a retry button when the request fails, and retry re-fetches', async () => {
-    mockedFetchRecommendations.mockRejectedValueOnce(new ApiError('HTTP 500', 500));
+    mockedFetchRecommendations.mockRejectedValueOnce(new Error('HTTP 500'));
     mockedFetchRecommendations.mockResolvedValueOnce(makeRecommendations(20));
     mockedFetchLatestBacktest.mockResolvedValue(makeBacktest());
 
