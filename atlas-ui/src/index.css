@@ -2,37 +2,34 @@
 @tailwind components;
 @tailwind utilities;
 
-/* ---------- BASE ---------- */
 @layer base {
   html {
     background-color: #0a0e14;
     color: #e6edf3;
     color-scheme: dark;
   }
-  html.light {
-    background-color: #f8fafc;
-    color: #0f172a;
-    color-scheme: light;
-  }
   body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
     -webkit-font-smoothing: antialiased;
     font-feature-settings: 'cv11', 'ss01';
     text-rendering: optimizeLegibility;
+    background-image:
+      radial-gradient(circle at 15% -10%, rgba(16, 185, 129, 0.08), transparent 40%),
+      radial-gradient(circle at 85% 0%, rgba(20, 184, 166, 0.06), transparent 35%);
+    background-attachment: fixed;
   }
-  /* Tabular nums for numerics */
   .num {
     font-variant-numeric: tabular-nums;
     font-family: 'JetBrains Mono', 'SF Mono', Menlo, monospace;
   }
 }
 
-/* ---------- COMPONENTS ---------- */
 @layer components {
   .panel {
     background-color: #10151c;
     border: 1px solid #1f2937;
     border-radius: 0.5rem;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px -12px rgba(0, 0, 0, 0.4);
   }
   .panel-raised {
     background-color: #161d26;
@@ -54,60 +51,6 @@
   }
 }
 
-/* ---------- LIGHT MODE OVERRIDES ---------- */
-/* In light mode we want higher contrast backgrounds (white panels, slate text) */
-html.light .panel {
-  background-color: #ffffff !important;
-  border-color: #e2e8f0 !important;
-}
-html.light .panel-raised {
-  background-color: #f1f5f9 !important;
-  border-color: #cbd5e1 !important;
-}
-html.light .label {
-  color: #64748b !important;
-}
-
-/* Text */
-html.light .text-ink-primary {
-  color: #0f172a !important;
-}
-html.light .text-ink-secondary {
-  color: #334155 !important;
-}
-html.light .text-ink-muted {
-  color: #64748b !important;
-}
-html.light .text-ink-dim {
-  color: #94a3b8 !important;
-}
-
-/* Backgrounds */
-html.light .bg-bg-base {
-  background-color: #f8fafc !important;
-}
-html.light .bg-bg-panel {
-  background-color: #ffffff !important;
-}
-html.light .bg-bg-raised {
-  background-color: #f1f5f9 !important;
-}
-html.light .bg-bg-overlay {
-  background-color: #e2e8f0 !important;
-}
-
-/* Borders */
-html.light .border-line-subtle {
-  border-color: #e2e8f0 !important;
-}
-html.light .border-line-default {
-  border-color: #cbd5e1 !important;
-}
-html.light .border-line-strong {
-  border-color: #94a3b8 !important;
-}
-
-/* ---------- SCROLLBAR ---------- */
 ::-webkit-scrollbar {
   width: 8px;
   height: 8px;
@@ -121,22 +64,4 @@ html.light .border-line-strong {
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #4a5568;
-}
-html.light ::-webkit-scrollbar-track {
-  background: #f1f5f9;
-}
-html.light ::-webkit-scrollbar-thumb {
-  background: #cbd5e1;
-}
-html.light ::-webkit-scrollbar-thumb:hover {
-  background: #94a3b8;
-}
-
-/* ---------- UTILITIES ---------- */
-.prob-heat {
-  background: linear-gradient(
-    90deg,
-    transparent 0%,
-    rgba(16, 185, 129, calc(var(--prob-val, 0) * 0.6)) 100%
-  );
 }
