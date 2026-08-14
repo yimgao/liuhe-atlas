@@ -41,9 +41,6 @@ export function DailyPick({ count, modelBalls }: Props) {
       <div className="h-row flex-wrap gap-y-2 items-start">
         <div>
           <span className="label">今日幸运号（共 {balls.length} 个）</span>
-          <p className="text-[11px] text-ink-muted mt-1 max-w-md leading-relaxed">
-            按当天日期固定生成，全天不变，明天 00:00 自动换一批。纯随机，不使用任何历史数据，不代表任何预测优势。
-          </p>
         </div>
         <div className="text-right shrink-0">
           <div className="text-[10px] text-ink-dim">距下次更新</div>
