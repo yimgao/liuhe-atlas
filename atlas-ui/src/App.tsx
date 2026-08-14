@@ -6,7 +6,7 @@ import { CountSelector } from './components/CountSelector';
 import { RecommendationGrid } from './components/RecommendationGrid';
 import { ModelInfoSection } from './components/ModelInfoSection';
 import { StrategyTabs, type Mode } from './components/StrategyTabs';
-import { RandomComparison } from './components/RandomComparison';
+import { DailyPick } from './components/DailyPick';
 import { PayoutCalculator } from './components/PayoutCalculator';
 
 const DEFAULT_COUNT = 20;
@@ -85,7 +85,7 @@ export default function App() {
             {mode === 'model' ? (
               <RecommendationGrid recommendations={data.recommendations} />
             ) : (
-              <RandomComparison count={count} modelBalls={modelBalls} />
+              <DailyPick count={count} modelBalls={modelBalls} />
             )}
             <PayoutCalculator count={count} />
             <ModelInfoSection

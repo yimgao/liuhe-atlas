@@ -90,7 +90,7 @@ describe('App', () => {
     await waitFor(() => expect(mockedFetchRecommendations).toHaveBeenCalledWith(20));
 
     mockedFetchRecommendations.mockResolvedValue(makeRecommendations(7));
-    const numberInput = screen.getByLabelText('推荐数量 (1-40)');
+    const numberInput = screen.getByLabelText('推荐数量 (1-47)');
     await userEvent.clear(numberInput);
     await userEvent.type(numberInput, '7');
 
@@ -100,16 +100,16 @@ describe('App', () => {
     await waitFor(() => expect(screen.getAllByText(/^#\d+$/)).toHaveLength(7));
   });
 
-  it('switches to the random comparison mode and shows a reroll button', async () => {
+  it('switches to the daily pick mode', async () => {
     mockedFetchRecommendations.mockResolvedValue(makeRecommendations(20));
     mockedFetchLatestBacktest.mockResolvedValue(makeBacktest());
 
     render(<App />);
     await screen.findAllByText(/^#\d+$/);
 
-    await userEvent.click(screen.getByRole('tab', { name: '随机对照' }));
+    await userEvent.click(screen.getByRole('tab', { name: '今日幸运号' }));
 
-    expect(screen.getByRole('button', { name: '重新生成' })).toBeInTheDocument();
+    expect(screen.getByText('距下次更新')).toBeInTheDocument();
     expect(screen.getAllByText(/^#\d+$/)).toHaveLength(20);
   });
 

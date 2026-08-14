@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 
 const MIN = 1;
-const MAX = 40;
+const MAX = 47;
 const DEBOUNCE_MS = 300;
 
 interface Props {
@@ -29,7 +29,7 @@ export function CountSelector({ value, onChange }: Props) {
     <div className="panel p-4 flex flex-col gap-2">
       <div className="h-row">
         <label htmlFor="count-number" className="label">
-          推荐数量 (1-40)
+          推荐数量 (1-47)
         </label>
         <input
           id="count-number"
@@ -51,7 +51,7 @@ export function CountSelector({ value, onChange }: Props) {
         className="w-full accent-emerald-500"
       />
       {isInvalid && (
-        <p className="text-[10px] text-warn-text">请输入 1 到 40 之间的整数</p>
+        <p className="text-[10px] text-warn-text">请输入 1 到 47 之间的整数</p>
       )}
     </div>
   );

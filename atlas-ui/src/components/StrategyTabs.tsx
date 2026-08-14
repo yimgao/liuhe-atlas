@@ -7,7 +7,7 @@ interface Props {
 
 const TABS: { key: Mode; label: string }[] = [
   { key: 'model', label: '模型推荐' },
-  { key: 'random', label: '随机对照' },
+  { key: 'random', label: '今日幸运号' },
 ];
 
 export function StrategyTabs({ mode, onChange }: Props) {
