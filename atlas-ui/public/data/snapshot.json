@@ -2,7 +2,7 @@
   "meta": {
     "lottery_type": 2,
     "lottery_name": "澳门六合彩",
-    "exported_at": "2026-09-11T02:46:35.175452+00:00",
+    "exported_at": "2026-09-11T03:05:14.520846+00:00",
     "period_count": 53,
     "real_period_count": 53,
     "synthetic_period_count": 0,
@@ -13,9 +13,10 @@
       2023,
       2024,
       2025,
-      2026
+      2026,
+      2027
     ],
-    "note": "Symbol maps derived from 2026 anchor via zodiac cycle rotation. Real 六合 tables vary by publisher; verify against actual draw results."
+    "note": "Zodiac maps formula-derived from the 2026=马年 anchor (see derive_zodiac.py); cross-checked against two independent aggregators for 2025 and 2026, exact match on all 12 zodiacs."
   },
   "periods": [
     {
@@ -3539,7 +3540,7 @@
         "odd_even": "双"
       },
       "13": {
-        "zodiac": "马",
+        "zodiac": "鼠",
         "wuxing": "金",
         "wave": "红",
         "odd_even": "单"
@@ -3587,31 +3588,31 @@
         "odd_even": "双"
       },
       "21": {
-        "zodiac": "狗",
+        "zodiac": "龙",
         "wuxing": "土",
         "wave": "绿",
         "odd_even": "单"
       },
       "22": {
-        "zodiac": "鸡",
+        "zodiac": "兔",
         "wuxing": "水",
         "wave": "绿",
         "odd_even": "双"
       },
       "23": {
-        "zodiac": "猴",
+        "zodiac": "虎",
         "wuxing": "水",
         "wave": "红",
         "odd_even": "单"
       },
       "24": {
-        "zodiac": "羊",
+        "zodiac": "牛",
         "wuxing": "木",
         "wave": "红",
         "odd_even": "双"
       },
       "25": {
-        "zodiac": "马",
+        "zodiac": "鼠",
         "wuxing": "木",
         "wave": "蓝",
         "odd_even": "单"
@@ -3659,31 +3660,31 @@
         "odd_even": "双"
       },
       "33": {
-        "zodiac": "狗",
+        "zodiac": "龙",
         "wuxing": "火",
         "wave": "绿",
         "odd_even": "单"
       },
       "34": {
-        "zodiac": "鸡",
+        "zodiac": "兔",
         "wuxing": "金",
         "wave": "红",
         "odd_even": "双"
       },
       "35": {
-        "zodiac": "猴",
+        "zodiac": "虎",
         "wuxing": "金",
         "wave": "红",
         "odd_even": "单"
       },
       "36": {
-        "zodiac": "羊",
+        "zodiac": "牛",
         "wuxing": "土",
         "wave": "蓝",
         "odd_even": "双"
       },
       "37": {
-        "zodiac": "马",
+        "zodiac": "鼠",
         "wuxing": "土",
         "wave": "蓝",
         "odd_even": "单"
@@ -3731,25 +3732,25 @@
         "odd_even": "双"
       },
       "45": {
-        "zodiac": "狗",
+        "zodiac": "龙",
         "wuxing": "水",
         "wave": "红",
         "odd_even": "单"
       },
       "46": {
-        "zodiac": "鸡",
+        "zodiac": "兔",
         "wuxing": "木",
         "wave": "红",
         "odd_even": "双"
       },
       "47": {
-        "zodiac": "猴",
+        "zodiac": "虎",
         "wuxing": "木",
         "wave": "蓝",
         "odd_even": "单"
       },
       "48": {
-        "zodiac": "羊",
+        "zodiac": "牛",
         "wuxing": "火",
         "wave": "蓝",
         "odd_even": "双"
@@ -3835,7 +3836,7 @@
         "odd_even": "双"
       },
       "13": {
-        "zodiac": "羊",
+        "zodiac": "牛",
         "wuxing": "金",
         "wave": "红",
         "odd_even": "单"
@@ -3883,31 +3884,31 @@
         "odd_even": "双"
       },
       "21": {
-        "zodiac": "猪",
+        "zodiac": "蛇",
         "wuxing": "土",
         "wave": "绿",
         "odd_even": "单"
       },
       "22": {
-        "zodiac": "狗",
+        "zodiac": "龙",
         "wuxing": "水",
         "wave": "绿",
         "odd_even": "双"
       },
       "23": {
-        "zodiac": "鸡",
+        "zodiac": "兔",
         "wuxing": "水",
         "wave": "红",
         "odd_even": "单"
       },
       "24": {
-        "zodiac": "猴",
+        "zodiac": "虎",
         "wuxing": "木",
         "wave": "红",
         "odd_even": "双"
       },
       "25": {
-        "zodiac": "羊",
+        "zodiac": "牛",
         "wuxing": "木",
         "wave": "蓝",
         "odd_even": "单"
@@ -3955,31 +3956,31 @@
         "odd_even": "双"
       },
       "33": {
-        "zodiac": "猪",
+        "zodiac": "蛇",
         "wuxing": "火",
         "wave": "绿",
         "odd_even": "单"
       },
       "34": {
-        "zodiac": "狗",
+        "zodiac": "龙",
         "wuxing": "金",
         "wave": "红",
         "odd_even": "双"
       },
       "35": {
-        "zodiac": "鸡",
+        "zodiac": "兔",
         "wuxing": "金",
         "wave": "红",
         "odd_even": "单"
       },
       "36": {
-        "zodiac": "猴",
+        "zodiac": "虎",
         "wuxing": "土",
         "wave": "蓝",
         "odd_even": "双"
       },
       "37": {
-        "zodiac": "羊",
+        "zodiac": "牛",
         "wuxing": "土",
         "wave": "蓝",
         "odd_even": "单"
@@ -4027,25 +4028,25 @@
         "odd_even": "双"
       },
       "45": {
-        "zodiac": "猪",
+        "zodiac": "蛇",
         "wuxing": "水",
         "wave": "红",
         "odd_even": "单"
       },
       "46": {
-        "zodiac": "狗",
+        "zodiac": "龙",
         "wuxing": "木",
         "wave": "红",
         "odd_even": "双"
       },
       "47": {
-        "zodiac": "鸡",
+        "zodiac": "兔",
         "wuxing": "木",
         "wave": "蓝",
         "odd_even": "单"
       },
       "48": {
-        "zodiac": "猴",
+        "zodiac": "虎",
         "wuxing": "火",
         "wave": "蓝",
         "odd_even": "双"
@@ -4131,7 +4132,7 @@
         "odd_even": "双"
       },
       "13": {
-        "zodiac": "猴",
+        "zodiac": "虎",
         "wuxing": "金",
         "wave": "红",
         "odd_even": "单"
@@ -4179,31 +4180,31 @@
         "odd_even": "双"
       },
       "21": {
-        "zodiac": "鼠",
+        "zodiac": "马",
         "wuxing": "土",
         "wave": "绿",
         "odd_even": "单"
       },
       "22": {
-        "zodiac": "猪",
+        "zodiac": "蛇",
         "wuxing": "水",
         "wave": "绿",
         "odd_even": "双"
       },
       "23": {
-        "zodiac": "狗",
+        "zodiac": "龙",
         "wuxing": "水",
         "wave": "红",
         "odd_even": "单"
       },
       "24": {
-        "zodiac": "鸡",
+        "zodiac": "兔",
         "wuxing": "木",
         "wave": "红",
         "odd_even": "双"
       },
       "25": {
-        "zodiac": "猴",
+        "zodiac": "虎",
         "wuxing": "木",
         "wave": "蓝",
         "odd_even": "单"
@@ -4251,31 +4252,31 @@
         "odd_even": "双"
       },
       "33": {
-        "zodiac": "鼠",
+        "zodiac": "马",
         "wuxing": "火",
         "wave": "绿",
         "odd_even": "单"
       },
       "34": {
-        "zodiac": "猪",
+        "zodiac": "蛇",
         "wuxing": "金",
         "wave": "红",
         "odd_even": "双"
       },
       "35": {
-        "zodiac": "狗",
+        "zodiac": "龙",
         "wuxing": "金",
         "wave": "红",
         "odd_even": "单"
       },
       "36": {
-        "zodiac": "鸡",
+        "zodiac": "兔",
         "wuxing": "土",
         "wave": "蓝",
         "odd_even": "双"
       },
       "37": {
-        "zodiac": "猴",
+        "zodiac": "虎",
         "wuxing": "土",
         "wave": "蓝",
         "odd_even": "单"
@@ -4323,25 +4324,25 @@
         "odd_even": "双"
       },
       "45": {
-        "zodiac": "鼠",
+        "zodiac": "马",
         "wuxing": "水",
         "wave": "红",
         "odd_even": "单"
       },
       "46": {
-        "zodiac": "猪",
+        "zodiac": "蛇",
         "wuxing": "木",
         "wave": "红",
         "odd_even": "双"
       },
       "47": {
-        "zodiac": "狗",
+        "zodiac": "龙",
         "wuxing": "木",
         "wave": "蓝",
         "odd_even": "单"
       },
       "48": {
-        "zodiac": "鸡",
+        "zodiac": "兔",
         "wuxing": "火",
         "wave": "蓝",
         "odd_even": "双"
@@ -4427,7 +4428,7 @@
         "odd_even": "双"
       },
       "13": {
-        "zodiac": "鸡",
+        "zodiac": "兔",
         "wuxing": "金",
         "wave": "红",
         "odd_even": "单"
@@ -4475,31 +4476,31 @@
         "odd_even": "双"
       },
       "21": {
-        "zodiac": "牛",
+        "zodiac": "羊",
         "wuxing": "土",
         "wave": "绿",
         "odd_even": "单"
       },
       "22": {
-        "zodiac": "鼠",
+        "zodiac": "马",
         "wuxing": "水",
         "wave": "绿",
         "odd_even": "双"
       },
       "23": {
-        "zodiac": "猪",
+        "zodiac": "蛇",
         "wuxing": "水",
         "wave": "红",
         "odd_even": "单"
       },
       "24": {
-        "zodiac": "狗",
+        "zodiac": "龙",
         "wuxing": "木",
         "wave": "红",
         "odd_even": "双"
       },
       "25": {
-        "zodiac": "鸡",
+        "zodiac": "兔",
         "wuxing": "木",
         "wave": "蓝",
         "odd_even": "单"
@@ -4547,31 +4548,31 @@
         "odd_even": "双"
       },
       "33": {
-        "zodiac": "牛",
+        "zodiac": "羊",
         "wuxing": "火",
         "wave": "绿",
         "odd_even": "单"
       },
       "34": {
-        "zodiac": "鼠",
+        "zodiac": "马",
         "wuxing": "金",
         "wave": "红",
         "odd_even": "双"
       },
       "35": {
-        "zodiac": "猪",
+        "zodiac": "蛇",
         "wuxing": "金",
         "wave": "红",
         "odd_even": "单"
       },
       "36": {
-        "zodiac": "狗",
+        "zodiac": "龙",
         "wuxing": "土",
         "wave": "蓝",
         "odd_even": "双"
       },
       "37": {
-        "zodiac": "鸡",
+        "zodiac": "兔",
         "wuxing": "土",
         "wave": "蓝",
         "odd_even": "单"
@@ -4619,25 +4620,25 @@
         "odd_even": "双"
       },
       "45": {
-        "zodiac": "牛",
+        "zodiac": "羊",
         "wuxing": "水",
         "wave": "红",
         "odd_even": "单"
       },
       "46": {
-        "zodiac": "鼠",
+        "zodiac": "马",
         "wuxing": "木",
         "wave": "红",
         "odd_even": "双"
       },
       "47": {
-        "zodiac": "猪",
+        "zodiac": "蛇",
         "wuxing": "木",
         "wave": "蓝",
         "odd_even": "单"
       },
       "48": {
-        "zodiac": "狗",
+        "zodiac": "龙",
         "wuxing": "火",
         "wave": "蓝",
         "odd_even": "双"
@@ -4723,7 +4724,7 @@
         "odd_even": "双"
       },
       "13": {
-        "zodiac": "狗",
+        "zodiac": "龙",
         "wuxing": "金",
         "wave": "红",
         "odd_even": "单"
@@ -4771,31 +4772,31 @@
         "odd_even": "双"
       },
       "21": {
-        "zodiac": "虎",
+        "zodiac": "猴",
         "wuxing": "土",
         "wave": "绿",
         "odd_even": "单"
       },
       "22": {
-        "zodiac": "牛",
+        "zodiac": "羊",
         "wuxing": "水",
         "wave": "绿",
         "odd_even": "双"
       },
       "23": {
-        "zodiac": "鼠",
+        "zodiac": "马",
         "wuxing": "水",
         "wave": "红",
         "odd_even": "单"
       },
       "24": {
-        "zodiac": "猪",
+        "zodiac": "蛇",
         "wuxing": "木",
         "wave": "红",
         "odd_even": "双"
       },
       "25": {
-        "zodiac": "狗",
+        "zodiac": "龙",
         "wuxing": "木",
         "wave": "蓝",
         "odd_even": "单"
@@ -4843,31 +4844,31 @@
         "odd_even": "双"
       },
       "33": {
-        "zodiac": "虎",
+        "zodiac": "猴",
         "wuxing": "火",
         "wave": "绿",
         "odd_even": "单"
       },
       "34": {
-        "zodiac": "牛",
+        "zodiac": "羊",
         "wuxing": "金",
         "wave": "红",
         "odd_even": "双"
       },
       "35": {
-        "zodiac": "鼠",
+        "zodiac": "马",
         "wuxing": "金",
         "wave": "红",
         "odd_even": "单"
       },
       "36": {
-        "zodiac": "猪",
+        "zodiac": "蛇",
         "wuxing": "土",
         "wave": "蓝",
         "odd_even": "双"
       },
       "37": {
-        "zodiac": "狗",
+        "zodiac": "龙",
         "wuxing": "土",
         "wave": "蓝",
         "odd_even": "单"
@@ -4915,25 +4916,25 @@
         "odd_even": "双"
       },
       "45": {
-        "zodiac": "虎",
+        "zodiac": "猴",
         "wuxing": "水",
         "wave": "红",
         "odd_even": "单"
       },
       "46": {
-        "zodiac": "牛",
+        "zodiac": "羊",
         "wuxing": "木",
         "wave": "红",
         "odd_even": "双"
       },
       "47": {
-        "zodiac": "鼠",
+        "zodiac": "马",
         "wuxing": "木",
         "wave": "蓝",
         "odd_even": "单"
       },
       "48": {
-        "zodiac": "猪",
+        "zodiac": "蛇",
         "wuxing": "火",
         "wave": "蓝",
         "odd_even": "双"
@@ -5019,7 +5020,7 @@
         "odd_even": "双"
       },
       "13": {
-        "zodiac": "猪",
+        "zodiac": "蛇",
         "wuxing": "金",
         "wave": "红",
         "odd_even": "单"
@@ -5067,31 +5068,31 @@
         "odd_even": "双"
       },
       "21": {
-        "zodiac": "兔",
+        "zodiac": "鸡",
         "wuxing": "土",
         "wave": "绿",
         "odd_even": "单"
       },
       "22": {
-        "zodiac": "虎",
+        "zodiac": "猴",
         "wuxing": "水",
         "wave": "绿",
         "odd_even": "双"
       },
       "23": {
-        "zodiac": "牛",
+        "zodiac": "羊",
         "wuxing": "水",
         "wave": "红",
         "odd_even": "单"
       },
       "24": {
-        "zodiac": "鼠",
+        "zodiac": "马",
         "wuxing": "木",
         "wave": "红",
         "odd_even": "双"
       },
       "25": {
-        "zodiac": "猪",
+        "zodiac": "蛇",
         "wuxing": "木",
         "wave": "蓝",
         "odd_even": "单"
@@ -5139,31 +5140,31 @@
         "odd_even": "双"
       },
       "33": {
-        "zodiac": "兔",
+        "zodiac": "鸡",
         "wuxing": "火",
         "wave": "绿",
         "odd_even": "单"
       },
       "34": {
-        "zodiac": "虎",
+        "zodiac": "猴",
         "wuxing": "金",
         "wave": "红",
         "odd_even": "双"
       },
       "35": {
-        "zodiac": "牛",
+        "zodiac": "羊",
         "wuxing": "金",
         "wave": "红",
         "odd_even": "单"
       },
       "36": {
-        "zodiac": "鼠",
+        "zodiac": "马",
         "wuxing": "土",
         "wave": "蓝",
         "odd_even": "双"
       },
       "37": {
-        "zodiac": "猪",
+        "zodiac": "蛇",
         "wuxing": "土",
         "wave": "蓝",
         "odd_even": "单"
@@ -5211,25 +5212,25 @@
         "odd_even": "双"
       },
       "45": {
-        "zodiac": "兔",
+        "zodiac": "鸡",
         "wuxing": "水",
         "wave": "红",
         "odd_even": "单"
       },
       "46": {
-        "zodiac": "虎",
+        "zodiac": "猴",
         "wuxing": "木",
         "wave": "红",
         "odd_even": "双"
       },
       "47": {
-        "zodiac": "牛",
+        "zodiac": "羊",
         "wuxing": "木",
         "wave": "蓝",
         "odd_even": "单"
       },
       "48": {
-        "zodiac": "鼠",
+        "zodiac": "马",
         "wuxing": "火",
         "wave": "蓝",
         "odd_even": "双"
@@ -5315,7 +5316,7 @@
         "odd_even": "双"
       },
       "13": {
-        "zodiac": "鼠",
+        "zodiac": "马",
         "wuxing": "金",
         "wave": "红",
         "odd_even": "单"
@@ -5363,31 +5364,31 @@
         "odd_even": "双"
       },
       "21": {
-        "zodiac": "龙",
+        "zodiac": "狗",
         "wuxing": "土",
         "wave": "绿",
         "odd_even": "单"
       },
       "22": {
-        "zodiac": "兔",
+        "zodiac": "鸡",
         "wuxing": "水",
         "wave": "绿",
         "odd_even": "双"
       },
       "23": {
-        "zodiac": "虎",
+        "zodiac": "猴",
         "wuxing": "水",
         "wave": "红",
         "odd_even": "单"
       },
       "24": {
-        "zodiac": "牛",
+        "zodiac": "羊",
         "wuxing": "木",
         "wave": "红",
         "odd_even": "双"
       },
       "25": {
-        "zodiac": "鼠",
+        "zodiac": "马",
         "wuxing": "木",
         "wave": "蓝",
         "odd_even": "单"
@@ -5435,31 +5436,31 @@
         "odd_even": "双"
       },
       "33": {
-        "zodiac": "龙",
+        "zodiac": "狗",
         "wuxing": "火",
         "wave": "绿",
         "odd_even": "单"
       },
       "34": {
-        "zodiac": "兔",
+        "zodiac": "鸡",
         "wuxing": "金",
         "wave": "红",
         "odd_even": "双"
       },
       "35": {
-        "zodiac": "虎",
+        "zodiac": "猴",
         "wuxing": "金",
         "wave": "红",
         "odd_even": "单"
       },
       "36": {
-        "zodiac": "牛",
+        "zodiac": "羊",
         "wuxing": "土",
         "wave": "蓝",
         "odd_even": "双"
       },
       "37": {
-        "zodiac": "鼠",
+        "zodiac": "马",
         "wuxing": "土",
         "wave": "蓝",
         "odd_even": "单"
@@ -5507,31 +5508,327 @@
         "odd_even": "双"
       },
       "45": {
-        "zodiac": "龙",
+        "zodiac": "狗",
         "wuxing": "水",
         "wave": "红",
         "odd_even": "单"
       },
       "46": {
-        "zodiac": "兔",
+        "zodiac": "鸡",
         "wuxing": "木",
         "wave": "红",
         "odd_even": "双"
       },
       "47": {
-        "zodiac": "虎",
+        "zodiac": "猴",
         "wuxing": "木",
         "wave": "蓝",
         "odd_even": "单"
       },
       "48": {
-        "zodiac": "牛",
+        "zodiac": "羊",
         "wuxing": "火",
         "wave": "蓝",
         "odd_even": "双"
       },
       "49": {
         "zodiac": "马",
+        "wuxing": "火",
+        "wave": "绿",
+        "odd_even": "单"
+      }
+    },
+    "2027": {
+      "1": {
+        "zodiac": "羊",
+        "wuxing": "水",
+        "wave": "红",
+        "odd_even": "单"
+      },
+      "2": {
+        "zodiac": "马",
+        "wuxing": "火",
+        "wave": "红",
+        "odd_even": "双"
+      },
+      "3": {
+        "zodiac": "蛇",
+        "wuxing": "火",
+        "wave": "蓝",
+        "odd_even": "单"
+      },
+      "4": {
+        "zodiac": "龙",
+        "wuxing": "金",
+        "wave": "蓝",
+        "odd_even": "双"
+      },
+      "5": {
+        "zodiac": "兔",
+        "wuxing": "金",
+        "wave": "绿",
+        "odd_even": "单"
+      },
+      "6": {
+        "zodiac": "虎",
+        "wuxing": "土",
+        "wave": "绿",
+        "odd_even": "双"
+      },
+      "7": {
+        "zodiac": "牛",
+        "wuxing": "土",
+        "wave": "红",
+        "odd_even": "单"
+      },
+      "8": {
+        "zodiac": "鼠",
+        "wuxing": "木",
+        "wave": "红",
+        "odd_even": "双"
+      },
+      "9": {
+        "zodiac": "猪",
+        "wuxing": "木",
+        "wave": "蓝",
+        "odd_even": "单"
+      },
+      "10": {
+        "zodiac": "狗",
+        "wuxing": "火",
+        "wave": "蓝",
+        "odd_even": "双"
+      },
+      "11": {
+        "zodiac": "鸡",
+        "wuxing": "火",
+        "wave": "绿",
+        "odd_even": "单"
+      },
+      "12": {
+        "zodiac": "猴",
+        "wuxing": "金",
+        "wave": "红",
+        "odd_even": "双"
+      },
+      "13": {
+        "zodiac": "羊",
+        "wuxing": "金",
+        "wave": "红",
+        "odd_even": "单"
+      },
+      "14": {
+        "zodiac": "马",
+        "wuxing": "水",
+        "wave": "蓝",
+        "odd_even": "双"
+      },
+      "15": {
+        "zodiac": "蛇",
+        "wuxing": "水",
+        "wave": "蓝",
+        "odd_even": "单"
+      },
+      "16": {
+        "zodiac": "龙",
+        "wuxing": "木",
+        "wave": "绿",
+        "odd_even": "双"
+      },
+      "17": {
+        "zodiac": "兔",
+        "wuxing": "木",
+        "wave": "绿",
+        "odd_even": "单"
+      },
+      "18": {
+        "zodiac": "虎",
+        "wuxing": "火",
+        "wave": "红",
+        "odd_even": "双"
+      },
+      "19": {
+        "zodiac": "牛",
+        "wuxing": "火",
+        "wave": "红",
+        "odd_even": "单"
+      },
+      "20": {
+        "zodiac": "鼠",
+        "wuxing": "土",
+        "wave": "蓝",
+        "odd_even": "双"
+      },
+      "21": {
+        "zodiac": "猪",
+        "wuxing": "土",
+        "wave": "绿",
+        "odd_even": "单"
+      },
+      "22": {
+        "zodiac": "狗",
+        "wuxing": "水",
+        "wave": "绿",
+        "odd_even": "双"
+      },
+      "23": {
+        "zodiac": "鸡",
+        "wuxing": "水",
+        "wave": "红",
+        "odd_even": "单"
+      },
+      "24": {
+        "zodiac": "猴",
+        "wuxing": "木",
+        "wave": "红",
+        "odd_even": "双"
+      },
+      "25": {
+        "zodiac": "羊",
+        "wuxing": "木",
+        "wave": "蓝",
+        "odd_even": "单"
+      },
+      "26": {
+        "zodiac": "马",
+        "wuxing": "金",
+        "wave": "蓝",
+        "odd_even": "双"
+      },
+      "27": {
+        "zodiac": "蛇",
+        "wuxing": "金",
+        "wave": "绿",
+        "odd_even": "单"
+      },
+      "28": {
+        "zodiac": "龙",
+        "wuxing": "土",
+        "wave": "绿",
+        "odd_even": "双"
+      },
+      "29": {
+        "zodiac": "兔",
+        "wuxing": "土",
+        "wave": "红",
+        "odd_even": "单"
+      },
+      "30": {
+        "zodiac": "虎",
+        "wuxing": "水",
+        "wave": "红",
+        "odd_even": "双"
+      },
+      "31": {
+        "zodiac": "牛",
+        "wuxing": "水",
+        "wave": "蓝",
+        "odd_even": "单"
+      },
+      "32": {
+        "zodiac": "鼠",
+        "wuxing": "火",
+        "wave": "绿",
+        "odd_even": "双"
+      },
+      "33": {
+        "zodiac": "猪",
+        "wuxing": "火",
+        "wave": "绿",
+        "odd_even": "单"
+      },
+      "34": {
+        "zodiac": "狗",
+        "wuxing": "金",
+        "wave": "红",
+        "odd_even": "双"
+      },
+      "35": {
+        "zodiac": "鸡",
+        "wuxing": "金",
+        "wave": "红",
+        "odd_even": "单"
+      },
+      "36": {
+        "zodiac": "猴",
+        "wuxing": "土",
+        "wave": "蓝",
+        "odd_even": "双"
+      },
+      "37": {
+        "zodiac": "羊",
+        "wuxing": "土",
+        "wave": "蓝",
+        "odd_even": "单"
+      },
+      "38": {
+        "zodiac": "马",
+        "wuxing": "木",
+        "wave": "绿",
+        "odd_even": "双"
+      },
+      "39": {
+        "zodiac": "蛇",
+        "wuxing": "木",
+        "wave": "绿",
+        "odd_even": "单"
+      },
+      "40": {
+        "zodiac": "龙",
+        "wuxing": "火",
+        "wave": "红",
+        "odd_even": "双"
+      },
+      "41": {
+        "zodiac": "兔",
+        "wuxing": "火",
+        "wave": "蓝",
+        "odd_even": "单"
+      },
+      "42": {
+        "zodiac": "虎",
+        "wuxing": "金",
+        "wave": "蓝",
+        "odd_even": "双"
+      },
+      "43": {
+        "zodiac": "牛",
+        "wuxing": "金",
+        "wave": "绿",
+        "odd_even": "单"
+      },
+      "44": {
+        "zodiac": "鼠",
+        "wuxing": "水",
+        "wave": "绿",
+        "odd_even": "双"
+      },
+      "45": {
+        "zodiac": "猪",
+        "wuxing": "水",
+        "wave": "红",
+        "odd_even": "单"
+      },
+      "46": {
+        "zodiac": "狗",
+        "wuxing": "木",
+        "wave": "红",
+        "odd_even": "双"
+      },
+      "47": {
+        "zodiac": "鸡",
+        "wuxing": "木",
+        "wave": "蓝",
+        "odd_even": "单"
+      },
+      "48": {
+        "zodiac": "猴",
+        "wuxing": "火",
+        "wave": "蓝",
+        "odd_even": "双"
+      },
+      "49": {
+        "zodiac": "羊",
         "wuxing": "火",
         "wave": "绿",
         "odd_even": "单"

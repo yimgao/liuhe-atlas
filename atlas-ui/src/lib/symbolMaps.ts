@@ -27,20 +27,23 @@ export const ODD_EVEN_MAP: Record<number, OddEven> = {
   })),
 };
 
-// Default 2026 zodiac map (fallback) — strict 1-1 mapping derived from photo
+// Default 2026 zodiac map (fallback) — formula-derived, cross-checked against
+// two independent 六合彩 aggregators for both 2025 and 2026 (all 12 zodiacs
+// matched exactly). 2026 = 丙午年 (Horse), so 马 owns the 5-ball {1,13,25,37,49}
+// slot and every other zodiac owns a 4-ball {base,+12,+24,+36} run.
 export const ZODIAC_MAP_2026: Record<Zodiac, number[]> = {
-  鼠: [7, 13, 19, 25, 31, 37, 43],
-  牛: [6, 18, 24, 30, 36, 42, 48],
-  虎: [5, 17, 23, 29, 35, 41, 47],
-  兔: [4, 16, 22, 28, 34, 40, 46],
-  龙: [3, 15, 21, 27, 33, 39, 45],
+  马: [1, 13, 25, 37, 49],
   蛇: [2, 14, 26, 38],
-  马: [1, 49],
-  羊: [12],
-  猴: [11],
-  鸡: [10],
-  狗: [9],
+  龙: [3, 15, 27, 39],
+  兔: [4, 16, 28, 40],
+  虎: [5, 17, 29, 41],
+  牛: [6, 18, 30, 42],
+  鼠: [7, 19, 31, 43],
   猪: [8, 20, 32, 44],
+  狗: [9, 21, 33, 45],
+  鸡: [10, 22, 34, 46],
+  猴: [11, 23, 35, 47],
+  羊: [12, 24, 36, 48],
 };
 
 // Year-aware lookup: passed at runtime from snapshot

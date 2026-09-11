@@ -133,7 +133,7 @@ def _export_from_db():
             "real_period_count": real_count,
             "synthetic_period_count": synthetic_count,
             "zodiac_map_years": sorted(zodiac_maps.keys()),
-            "note": "Symbol maps derived from 2026 anchor via zodiac cycle rotation. Real 六合 tables vary by publisher; verify against actual draw results.",
+            "note": "Zodiac maps formula-derived from the 2026=马年 anchor (see derive_zodiac.py); cross-checked against two independent aggregators for 2025 and 2026, exact match on all 12 zodiacs.",
         },
         "periods": period_list,
         "zodiac_maps": zodiac_maps,
