@@ -68,6 +68,7 @@ type TKey =
   | 'theme.dark' | 'theme.light' | 'theme.toggle'
   | 'export.pdf' | 'export.report' | 'export.generated' | 'export.disclaimer'
   | 'autoPick.title' | 'autoPick.tag' | 'autoPick.combine' | 'autoPick.intersection' | 'autoPick.frequency' | 'autoPick.model' | 'autoPick.note'
+  | 'autoPick.random' | 'autoPick.randomDesc' | 'autoPick.randomCountdown'
   | 'countdown.nextDraw' | 'countdown.refreshIn' | 'countdown.refreshNow'
   | 'footer.disclaimer' | 'footer.lastBuild'
   | 'error.loadFailed' | 'error.loadHint' | 'error.loading';
@@ -221,6 +222,9 @@ export const TRANSLATIONS: Record<Locale, Record<TKey, string>> = {
     'autoPick.frequency': '频率',
     'autoPick.model': '模型',
     'autoPick.note': '⚠ 自动选号仍基于不确定的统计信号。长期下注期望仍为负。',
+    'autoPick.random': '每日随机',
+    'autoPick.randomDesc': '按当天日期固定生成一次，全天不变，不使用任何历史数据',
+    'autoPick.randomCountdown': '距下次更新',
     'countdown.nextDraw': '距下期开奖',
     'countdown.refreshIn': '下次刷新',
     'countdown.refreshNow': '立即刷新',
@@ -378,6 +382,9 @@ export const TRANSLATIONS: Record<Locale, Record<TKey, string>> = {
     'autoPick.frequency': 'Frequency',
     'autoPick.model': 'Model',
     'autoPick.note': '⚠ Auto-pick is still based on uncertain statistical signal. Long-term betting EV remains negative.',
+    'autoPick.random': 'Daily random',
+    'autoPick.randomDesc': 'Generated once per calendar day, stable all day, no historical data used',
+    'autoPick.randomCountdown': 'Next update in',
     'countdown.nextDraw': 'Next draw',
     'countdown.refreshIn': 'Next refresh',
     'countdown.refreshNow': 'Refresh now',

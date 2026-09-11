@@ -1,7 +1,8 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import type { Snapshot } from '../types';
 import { predict, type PredictionResult } from '../lib/predictor';
 import { computeBallFreqs } from '../lib/statistics';
+import { dailyBallOrder, localDateKey, msUntilNextLocalMidnight } from '../lib/random';
 import { useLocale } from '../lib/i18n';
 
 interface Props {
@@ -10,11 +11,32 @@ interface Props {
   onPick: (balls: number[]) => void;
 }
 
-type AutoMode = 'combine' | 'intersection' | 'model' | 'frequency';
+type AutoMode = 'combine' | 'intersection' | 'model' | 'frequency' | 'random';
+
+function formatCountdown(ms: number): string {
+  const totalSeconds = Math.max(0, Math.floor(ms / 1000));
+  const h = String(Math.floor(totalSeconds / 3600)).padStart(2, '0');
+  const m = String(Math.floor((totalSeconds % 3600) / 60)).padStart(2, '0');
+  const s = String(totalSeconds % 60).padStart(2, '0');
+  return `${h}:${m}:${s}`;
+}
 
 export function AutoPick({ snapshot, n, onPick }: Props) {
   const { t } = useLocale();
   const [mode, setMode] = useState<AutoMode>('combine');
+  const [dateKey, setDateKey] = useState(() => localDateKey());
+  const [countdown, setCountdown] = useState(() => msUntilNextLocalMidnight());
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCountdown(msUntilNextLocalMidnight());
+      const today = localDateKey();
+      setDateKey(prev => (prev === today ? prev : today));
+    }, 1000);
+    return () => clearInterval(timer);
+  }, []);
+
+  const dailyRandom = useMemo(() => dailyBallOrder(dateKey).slice(0, n), [dateKey, n]);
 
   const result = useMemo(() => {
     if (snapshot.periods.length === 0) return null;
@@ -68,6 +90,11 @@ export function AutoPick({ snapshot, n, onPick }: Props) {
     intersection: { balls: result.intersection, label: t('autoPick.intersection'), desc: 'In both Top-N lists' },
     model: { balls: result.topNModel, label: t('autoPick.model'), desc: 'Bayesian L2 only' },
     frequency: { balls: result.topNFreq, label: t('autoPick.frequency'), desc: 'Raw count ranking' },
+    random: {
+      balls: dailyRandom,
+      label: t('autoPick.random'),
+      desc: `${t('autoPick.randomDesc')} · ${t('autoPick.randomCountdown')} ${formatCountdown(countdown)}`,
+    },
   };
 
   return (
