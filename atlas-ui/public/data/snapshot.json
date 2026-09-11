@@ -2,7 +2,7 @@
   "meta": {
     "lottery_type": 2,
     "lottery_name": "澳门六合彩",
-    "exported_at": "2026-09-11T03:05:14.520846+00:00",
+    "exported_at": "2026-09-11T03:38:08.520226+00:00",
     "period_count": 53,
     "real_period_count": 53,
     "synthetic_period_count": 0,
@@ -24,7 +24,7 @@
       "lottery_name": "澳门六合彩",
       "draw_date": "2026年09月11日21时32分 星期五",
       "source_domain": "82hats7.66852.cc:8443",
-      "fetched_at": "2026-09-11 02:46:34",
+      "fetched_at": "2026-09-11 03:38:08",
       "numbers": [
         {
           "position": 1,
@@ -37,7 +37,7 @@
         {
           "position": 2,
           "ball": 35,
-          "zodiac": "虎",
+          "zodiac": "猴",
           "wuxing": "金",
           "wave": "红",
           "odd_even": "单"
@@ -61,7 +61,7 @@
         {
           "position": 5,
           "ball": 13,
-          "zodiac": "鼠",
+          "zodiac": "马",
           "wuxing": "金",
           "wave": "红",
           "odd_even": "单"
