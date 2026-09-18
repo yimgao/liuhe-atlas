@@ -2,9 +2,9 @@
   "meta": {
     "lottery_type": 2,
     "lottery_name": "澳门六合彩",
-    "exported_at": "2026-09-17T06:07:23.165096+00:00",
-    "period_count": 59,
-    "real_period_count": 59,
+    "exported_at": "2026-09-18T03:32:07.239023+00:00",
+    "period_count": 60,
+    "real_period_count": 60,
     "synthetic_period_count": 0,
     "zodiac_map_years": [
       2020,
@@ -19,6 +19,71 @@
     "note": "Zodiac maps formula-derived from the 2026=马年 anchor (see derive_zodiac.py); cross-checked against two independent aggregators for 2025 and 2026, exact match on all 12 zodiacs."
   },
   "periods": [
+    {
+      "period_id": 2026260,
+      "lottery_name": "澳门六合彩",
+      "draw_date": "2026年09月18日21时32分 星期五",
+      "source_domain": "82hats7.66852.cc:8443",
+      "fetched_at": "2026-09-18 03:32:07",
+      "numbers": [
+        {
+          "position": 1,
+          "ball": 25,
+          "zodiac": "马",
+          "wuxing": "木",
+          "wave": "蓝",
+          "odd_even": "单"
+        },
+        {
+          "position": 2,
+          "ball": 26,
+          "zodiac": "蛇",
+          "wuxing": "金",
+          "wave": "蓝",
+          "odd_even": "双"
+        },
+        {
+          "position": 3,
+          "ball": 44,
+          "zodiac": "猪",
+          "wuxing": "水",
+          "wave": "绿",
+          "odd_even": "双"
+        },
+        {
+          "position": 4,
+          "ball": 32,
+          "zodiac": "猪",
+          "wuxing": "火",
+          "wave": "绿",
+          "odd_even": "双"
+        },
+        {
+          "position": 5,
+          "ball": 6,
+          "zodiac": "牛",
+          "wuxing": "土",
+          "wave": "绿",
+          "odd_even": "双"
+        },
+        {
+          "position": 6,
+          "ball": 48,
+          "zodiac": "羊",
+          "wuxing": "火",
+          "wave": "蓝",
+          "odd_even": "双"
+        },
+        {
+          "position": 7,
+          "ball": 20,
+          "zodiac": "猪",
+          "wuxing": "土",
+          "wave": "蓝",
+          "odd_even": "双"
+        }
+      ]
+    },
     {
       "period_id": 2026259,
       "lottery_name": "澳门六合彩",
