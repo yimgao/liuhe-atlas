@@ -2,7 +2,7 @@
   "meta": {
     "lottery_type": 2,
     "lottery_name": "澳门六合彩",
-    "exported_at": "2026-09-19T01:36:04.058013+00:00",
+    "exported_at": "2026-09-19T02:30:49.699759+00:00",
     "period_count": 61,
     "real_period_count": 61,
     "synthetic_period_count": 0,
@@ -24,7 +24,7 @@
       "lottery_name": "澳门六合彩",
       "draw_date": "2026年09月19日21时32分 星期六",
       "source_domain": "82hats7.66852.cc:8443",
-      "fetched_at": "2026-09-19 01:36:03",
+      "fetched_at": "2026-09-19 02:30:49",
       "numbers": [
         {
           "position": 1,
